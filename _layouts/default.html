@@ -15,13 +15,13 @@
     <div class="wrapper">
       <header>
         <h1 class="header">{{ site.me.name }} {{ site.me.surname }}</h1>
-        <p class="header">{{ site.me.profession-summary }}</p>
+        <p class="header">{{ site.me.professional-summary }}</p>
 
         <ul>
           <li><a class="buttons" href="{{ site.me.links.linkedin }}">Connect on LinkedIn</a></li>
           <li><a class="buttons github" href="{{ site.github.owner_url }}">Check out my GitHub</a></li>
-          <li><a class="buttons" href="{{ site.github.repository_url }}">Send me an email</a></li>
-          <li><a class="buttons" href="tel:{{ site.me.phone }}">Drop a call</a></li>
+          <li><a class="buttons" href="mailto:{{ site.me.email }}">Send me an email</a></li>
+          <li><a class="buttons" href="tel:{{ site.me.phone }}">Drop me a call</a></li>
         </ul>
       </header>
 
