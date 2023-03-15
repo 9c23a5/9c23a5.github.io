@@ -39,7 +39,7 @@ layout: default
 
 #### Certified on {{ cert.date }}
 
-Certified by {{ certifier }}.{% if cert-url %} You may verify my certification [here]({{cert.cert-url}}).{% endif %}
+Certified by {{ cert.certifier }}.{% if cert.cert-url %} You may verify my certification [here]({{cert.cert-url}}).{% endif %}
 
 {% endfor %}
 

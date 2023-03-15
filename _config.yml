@@ -31,7 +31,7 @@ me:
     - Learnt thing 2
     url: https://myproject.fake
   links:
-    - linkedin: https://linkedin.com/
+    linkedin: https://linkedin.com/
 jobs:
 - position: position1
   company: position1
