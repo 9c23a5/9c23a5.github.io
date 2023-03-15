@@ -60,5 +60,5 @@ education:
 certs:
 - name: Certificate name
   certified-by: certifier
-  start: xx/xx/xxxx
+  date: xx/xx/xxxx
   cert-url: https://cert.com
