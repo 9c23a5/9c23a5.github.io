@@ -33,7 +33,7 @@ layout: default
 
 # Certifications
 
-{% for cert in site.certs}
+{% for cert in site.certs %}
 
 ## {{cert.name}}
 

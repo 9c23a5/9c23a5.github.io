@@ -11,9 +11,9 @@ me:
   email: mail@example
   phone: +xxxxxx
   professional-summary: |-
-    A
-    multi-line
-    summary!
+    A multi-line summary!
+
+    However, I need to use two newlines on YAML in order to make this visible or Markdown...
   my-skills:
   - name: Programming lang 1
     description: I learnt this for X and Y, and helped me implementing Z.
