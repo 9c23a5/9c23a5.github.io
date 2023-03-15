@@ -67,9 +67,7 @@ Certified by {{ cert.certified-by }}.{% if cert.cert-url %} You may verify my ce
 
 {% for project in site.me.side-projects %}
 
-## {{ project.name }}
-
-#### [Visit this project]({{ project.url }})
+## [{{ project.name }}]({{ project.url }}){:target="_blank"}
 
 {{ project.description }}
 
