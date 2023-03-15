@@ -54,7 +54,7 @@ Certified by {{ cert.certified-by }}.{% if cert.cert-url %} You may verify my ce
 
 **Skills:**
 
-{% for skill in learnt %}
+{% for skill in edu.learnt %}
 
 * **{{ skill.name }}:** {{ skill.description }}
 
