@@ -61,3 +61,24 @@ Certified by {{ cert.certified-by }}.{% if cert.cert-url %} You may verify my ce
 {% endfor %}
 
 {% endfor %}
+
+
+# Side projects
+
+{% for project in site.me.side-projects %}
+
+## {{ project.name }}
+
+#### [Visit this project]({{ project.url }})
+
+{{ project.description }}
+
+**What I learnt:**
+
+{% for lesson in project.what-i-learnt %}
+
+* {{ lesson }}
+
+{% endfor %}
+
+{% endfor %}

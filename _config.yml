@@ -12,7 +12,6 @@ me:
   professional-summary: |-
     A multi-line summary!
 
-
     However, I need to use two newlines on YAML in order to make this visible or Markdown...
   my-skills:
   - name: Programming lang 1
@@ -25,6 +24,7 @@ me:
   - name: My Side Project 1
     description: |-
       Lengthy explanation
+      
       spanning multiple lines
     what-i-learnt:
     - Learnt thing 1
