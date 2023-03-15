@@ -13,6 +13,7 @@ me:
   professional-summary: |-
     A multi-line summary!
 
+
     However, I need to use two newlines on YAML in order to make this visible or Markdown...
   my-skills:
   - name: Programming lang 1
@@ -33,18 +34,18 @@ me:
   links:
     linkedin: https://linkedin.com/
 jobs:
-- position: position1
-  company: position1
+- position: Position Name
+  company: Company Name
   start: xx/xx/xxxx
   end:
   description: I did stuff and worked hard!
   responsibilities:
-  - name: Responsability 1
-    description: Thing 1, this was very important due to X, Y, helped launch Z and helped my team earn record profits
-  - name: Responsability 2
-    description: Thing 2, this was very important due to X, Y, helped launch Z and helped my team earn record profits
-  - name: Responsability 3
-    description: Thing 3, this was very important due to X, Y, helped launch Z and helped my team earn record profits
+  - name: Responsibilities 1
+    description: Thing 1, this was very important due to X, Y, helped launch Z and helped my team earn record profits.
+  - name: Responsibilities 2
+    description: Thing 2, this was very important due to X, Y, helped launch Z and helped my team earn record profits.
+  - name: Responsibilities 3
+    description: Thing 3, this was very important due to X, Y, helped launch Z and helped my team earn record profits.
 education:
 - name: Study Name
   school: Name School
@@ -58,7 +59,7 @@ education:
   - name: Lesson 3 
     description: Understood how A works and how it interacts with B, practiced with C and performed D
 certs:
-- name: Certificate name
-  certified-by: certifier
+- name: Certificate for Testing A1
+  certified-by: CertifierName
   date: xx/xx/xxxx
   cert-url: https://cert.com
